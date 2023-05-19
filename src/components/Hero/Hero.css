@@ -1,0 +1,125 @@
+.hero__wrapper {
+    position: relative;
+}
+.post {
+}
+.post__left-wrapper {
+}
+.post__letf-inp {
+}
+.post__letf-btn {
+}
+.post__right-wrapper {
+}
+.post__right-btn {
+}
+.hero__list {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.31);
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    padding: 21px 16px;
+    justify-content: space-between  ;
+}
+.hero__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 40px 17px 25px;
+    width: 674px;
+    background: #F8F9FA;
+    margin-top: 12px;
+}
+.item__title{
+    max-width: 470px;
+    color: #344767;
+}
+.item__text{
+    margin-top: 25px;
+    max-width: 400px;
+    color: #7B809A
+}
+.item__delete{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    background-color: inherit;
+    border: none;
+    color: #F44334;
+}
+.item__edit {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    color: #344767;
+    background-color: inherit;
+    border: none;
+    margin-left: 57px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    padding: 68px 96px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+}
+.card__title{
+    padding-bottom: 9px;
+    text-transform: uppercase;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6A6A6A;
+}
+.card__inp {
+    margin-top: 30px;
+    border: 1px solid #C7CCD0;
+    border-radius: 8px;
+    padding: 11px 193px 11px 16px;
+}
+.card__btn-wrapper{
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+}
+.card__cencel {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    padding: 7px 17px;
+    text-align: center;
+    color: #828282;
+    background: #D9D9D9;
+    border-radius: 8px;
+    border: none;
+}
+.card__save {
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #E93B77 0%, #DA1F63 100%);
+    border-radius: 8px;
+    padding: 7px 1px;
+    border: none;
+}
+.modal__bg{
+    position: fixed;
+    background-color: #EEEEEE;
+    width: 100vh;
+    height: 100vh;
+}
